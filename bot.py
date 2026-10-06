@@ -3,8 +3,8 @@ from flask import Flask
 import yfinance as yf
 import ta
 
-BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID") # 6993641983
+BOT_TOKEN = os.getenv("8938743211:AAEN5CMnySV06_TLXhM-x3ZNKZLhAkC4gE0")
+CHAT_ID = os.getenv("6993641983") # 6993641983
 app = Flask(__name__)
 
 def get_gold_analysis():
